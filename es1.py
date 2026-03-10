@@ -5,7 +5,7 @@ def is_pari(n) :
     else : 
         return False
 
-main(): 
+def main(): 
     result = int((input("scrivi un numero: ")))
     print(is_pari(result))
 
