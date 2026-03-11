@@ -4,10 +4,16 @@ def is_pari(n) :
         return True
     else : 
         return False
-
+"""punto 2) ritorna un numero positivo che li da l'utente se non va bene richiederlo """
+def positive_value(n) : 
+    if (n >= 1) : 
+        return n
+    else : 
+        input("numero non valido")
 def main(): 
     result = int((input("scrivi un numero: ")))
     print(is_pari(result))
+    print(positive_value(result))
 
 
 main()
