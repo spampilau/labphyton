@@ -9,6 +9,7 @@ def positive_value(n) :
     if (n >= 1) : 
         return n
     else : 
+        while (n < 1) :
         return input("numero non valido")
 def main(): 
     result = int((input("scrivi un numero: ")))
