@@ -9,7 +9,7 @@ def positive_value(n) :
     if (n >= 1) : 
         return n
     else : 
-        input("numero non valido")
+        return input("numero non valido")
 def main(): 
     result = int((input("scrivi un numero: ")))
     print(is_pari(result))
